@@ -1,0 +1,29 @@
+.navi {
+    display: inline-block !important;
+    background-color: rgb(230, 230, 230) !important;
+    height: 100%;
+    width: 20% !important;
+    text-align: center;
+}
+
+.nav-item {
+    margin-top: 4rem !important;
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.nav-select {
+    font-weight: bold !important;
+    text-decoration: underline !important;
+}
+
+main > div {
+    /* display: inline-block; */
+    float: right;
+    height: 100%;
+    width: 80%;
+    border: black 2px solid;
+    
+}
