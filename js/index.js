@@ -7,3 +7,4 @@ function selectNav(clicked) {
     clicked = document.getElementById(clicked);
     clicked.className = "item active nav-item";
 }
+
