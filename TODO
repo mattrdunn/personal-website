@@ -1,0 +1,18 @@
+** Change font styling of menu
+    - Make larger and bold
+    - Get over animation to work
+** Fix active styling to show full bold bar
+** Update layout of Welcome section
+    - Squish text items together
+    - Adjust font styling/bold
+    - Add a "Call to action" animation at the bottom of the page
+        - Tells user to scroll down to learn more about me
+        - Animates after being on the page for ~4 seconds
+    - Add background filler image
+** Skills organizer
+** Experience
+** Projects
+    - Create dropdown component to reveal different projects
+** Interests
+** Contact
+** Make resume link open resume in a new tab

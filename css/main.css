@@ -1,4 +1,8 @@
 /*========================== Element styling ========================== */
+/* TODO: make smooth scrolling cross-browser compatible */
+html {
+    scroll-behavior: smooth;
+}
 
 main > div {
     display: flex;
@@ -7,14 +11,9 @@ main > div {
     float: right;
     height: 100vh;
     width: 80%;
+    background-color: rgb(245, 245, 245);
     border-bottom: #dddddd 2px solid;
     text-align: center;
-}
-
-a {
-    transition-property: all;
-    transition-duration: 500ms;
-    transition-timing-function: ease-in;
 }
 
 
@@ -39,7 +38,7 @@ a {
     transform: translate(-50%, -50%);
 }
 
-.nav-select {
+a:hover {
     font-weight: bold !important;
     text-decoration: underline !important;
 }
